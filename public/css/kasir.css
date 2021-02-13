@@ -1,0 +1,70 @@
+body { padding-top: 70px; }
+.navbar-fixed-top {
+	z-index: 1 !important;
+}
+.nav-left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: teal;
+    width: 80px;
+    text-align: center;
+    z-index: 2;
+}
+.nav-left a { color: white; }
+.nav-left span {
+	padding: 15px 0;
+	font-size: 41px;
+}
+.navbar .glyphicon-volume-up { font-size: 20px }
+.navbar .badge { margin-top: -34px; background-color: red; }
+ul.sugstyle {
+	cursor: pointer;
+	position: absolute;
+	width: 60%;
+	padding: 0;
+	margin-left: 58.4%;
+	margin-top: 6px;
+	z-index: 1;
+}
+ul.sugstyle li {
+    padding:12px;
+    border: thin solid #F0F8FF;
+    list-style: none;
+    background-color:#ccc;
+    border-radius: 2px;
+}
+ul.sugstyle li:hover{
+    background-color:#7FFFD4;
+}
+ul.sugstyle li.block { color: white; background-color: purple !important}
+.hapus-item { color: red; cursor: pointer; }
+input[id='src_kode'], input[id='src_kasir'] { background-color: teal !important; border: 0px; }
+input[id='src_kode']::placeholder, input[id='src_kasir']::placeholder { color: white; }
+input[id='src_kode']:focus, input[id='src_kasir']:focus { background-color: whitesmoke !important; }
+.tooltip-qty { position: relative; }
+.tooltip-qty input {
+	height: 33px;
+	display: inline-block;
+	padding-bottom: 3px;
+	text-align: center;
+	border: solid 1px #c9302c;
+}
+.tooltip-qty .btn:first-child {
+	border-radius: 3px 0 0 3px;
+}
+.tooltip-qty .btn:last-child {
+	border-radius: 0 3px 3px 0;
+}
+.balon-qty {
+	position: absolute;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	padding: 4px 18px;
+	top: -5px;
+	left: 50px;
+    border-radius: 3px;
+}
+.balon-show { display: show; }
