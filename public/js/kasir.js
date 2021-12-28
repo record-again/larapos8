@@ -115,7 +115,6 @@ function currentLi() {
         for(var i = 0; i<li.length; i++) {
             if(li[i].className == 'block') {
                 break;
-                
             }
         }
     }
